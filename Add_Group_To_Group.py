@@ -7,16 +7,16 @@ from pyrogram.raw import functions
 from colorama import *
 from pyfiglet import Figlet
 init()#  @X_Me_Z  :  سازنده اسکریپت
-os.system('pip install pyrogram')
-os.system('pip install colorama')
-os.system('pip install pyfiglet')
+# os.system('pip install pyrogram')
+# os.system('pip install colorama')
+# os.system('pip install pyfiglet')
 api_id=  18784007
 api_hash = '21135f3177117d805354422adfd08603'
 proxy = {"scheme":"socks5" ,"hostname":"127.0.0.1", "port" : 9150}
 X_Me_Z = Client('X_Me_Z-Bot',
 		api_id=api_id,
 		api_hash=api_hash,
-		proxy=proxy
+# 		proxy=proxy
 		)
 with X_Me_Z:
 	X_Me_Z.send_message('me', 'ربات امیرشاه فعال شد !')
